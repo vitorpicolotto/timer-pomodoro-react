@@ -1,7 +1,15 @@
+import { HomePage } from './pages/home'
+import { Layout } from './template'
+
 function App() {
   
   return (
-    <h1>Pomodoro</h1>
+  <>
+    <Layout>
+      <HomePage />
+    </Layout>
+
+  </>
   )
 }
 
